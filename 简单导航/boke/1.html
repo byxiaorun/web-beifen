@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title></title>
+<link rel="stylesheet" href="1.css" type="text/css" >
+</head>
+<body>
+<div>
+<div class="container">
+		<div class="top">
+			<div class="logo">
+				<a href="">简单博客</a>
+			</div>
+		</div>
+		
+			<nav class="main"><h6 class="title">Menu</h6>
+            <ul class="menu">
+<li><a>————————–</a></li>
+<li><a href="">简单博客</a></li>
+<li><a  target="_blank" href="../home/home.html">简单搜索</a></li>
+<li><a href="../lt/1.html">简单论坛</a></li>
+<li><a href="">首页</a></li>
+<li><a href="">首页</a></li>
+<li><a href="">首页</a></li>
+<li><a>————————–</a></li>
+</ul></nav>
+			
+	<footer class="footer">
+	<div>byxiaorun<br></div>
+</footer>
+</div>
+<div class="neirong">
+<p>android studio compile fail to resolve XXX解决办法</p><ul><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>今天android studio 升级到了1.2版的Beta3，新建了一个项目想测试一下fresco库，结果出现了如题所说的问题，编译的时候编不过。很奇怪的是在公司测试的时候明明没有问题的，后来提示让我装24.0.1的build tool 的更新，果断更新，重新编译依然不可以，于是重新新建了一个新项目加入了fresco库，编译，在新项目里是ok的，原来原来项目里面使用的依然是新建项目时的build tool工具，即使你更新工具了，build.gradle里面还是使用的原来的build tool工具，于是将原来项目里build.gradle换为新的22.0.1的build tool ,果断ok了。<br /><img src="20150411205932354.png" />在as 1.2的Beta3版本里面使用buildTool 22.0.0会导致编译外部dependency 时can not resolve错误，要下载最新的build tool 工具，将此处改为22.0.1，就ok了。
+个人猜测是不同版本的android studio版本对应使用不同版本的build 工具，虽然有时不匹配也能编译过，但最好还是使用匹配的，也或许是应该是最好使用最新的build tool工具。</ul>
+</div>
+
+
+</div>
+</body>
+</html>

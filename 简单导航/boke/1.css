@@ -1,0 +1,69 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+   margin: 0;
+  line-height: 1.5;
+  color: #222831;
+  background-color: #fff;
+}
+
+.container {
+  position: absolute;
+  left: 0px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 35px;
+  padding-right: 35px;
+  width: 200px;
+  height: 100%;
+  background: #222831;
+}
+.top {
+  margin-bottom: 50px;
+  border-bottom: 1px solid #393E46;
+  position: relative;
+}
+.logo {
+  display:block;
+  margin-bottom: 15px;
+  width: 100%;
+  text-align: left;
+}
+.logo a {
+  font-size: 1.8rem;
+  display: block;
+  color: #00adb5;
+}
+.title {
+  color: #EEEEEE;
+  border-bottom: 1px solid #393E46;
+  padding-bottom: 15px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.main ul{
+  padding: 0;
+  margin: 0;
+}
+
+.menu  li a {
+  color: #EEEEEE;
+  position: relative;
+  margin-bottom: 15px;
+  display:inline-block;  
+}
+.footer {
+  padding: 2em 0;
+  text-align: left;
+  border-top: 1px solid #393E46;
+  width: 100%;
+  color: #EEEEEE;
+}
+
+.neirong{position: absolute; left:250px; top:20px;width:800px; border:thin #000;line-height:3; letter-spacing:5; margin-left:50px;
+}
+p{ font-weight:bold; padding-left:180px;}
+.zhifu{position:fixed;right:0px; top:250px;}
